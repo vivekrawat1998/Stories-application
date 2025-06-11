@@ -1,0 +1,86 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1c1c1c, #000);
+}
+
+.app-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.app-content {
+  max-width: 600px;
+  margin-top: 2rem;
+  background: #222;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.1);
+  line-height: 1.6;
+}
+
+.app-content p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.story-reel-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+.story-circle {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #ffcc00;
+  background: #333;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.story-circle:hover {
+  transform: scale(1.1);
+}
+
+.add-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #444;
+  border: 2px dashed #888;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #ffcc00;
+  transition: background 0.3s;
+}
+
+.add-story:hover {
+  background: #555;
+}
