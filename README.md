@@ -4,7 +4,7 @@ It is a client-side web application delivering a modern "stories" experience, al
 
 ---
 
-**🚀 Live Demo:** [**stories-application-two.vercel.app**](https://stories-application-two.vercel.app)
+**🚀 Live Demo:** [**stories-application-two.vercel.app**](https://stories-application-gray.vercel.app/)
 
 ---
 
@@ -44,7 +44,7 @@ To get a local copy up and running, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/vivekrawat1998/stories_application.git
+    git clone https://github.com/vivekrawat1998/stories-application.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
